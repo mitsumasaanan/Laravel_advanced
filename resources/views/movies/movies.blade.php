@@ -61,5 +61,4 @@
     @endforeach
 
 </div>
-
 {{ $movies->links('pagination::bootstrap-4') }}
