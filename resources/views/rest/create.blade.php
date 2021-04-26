@@ -34,6 +34,7 @@
                         {!! Form::submit('新規登録する？',['class'=> 'button btn btn-primary mt-5 mb-5']) !!}
         
                     </div>
+                    
                 {!! Form::close() !!}
                 
                 <h2 class="mt-5 mb-5">動画を削除する</h2>
