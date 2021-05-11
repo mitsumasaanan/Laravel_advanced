@@ -48,4 +48,7 @@ Route::group(['middleware' => 'auth'], function () {
     });
     
     Route::resource('movies', 'MoviesController', ['only' => ['create', 'store', 'destroy']]);
+    
+    Route::get('/password/change','ChangePasswordController@edit')->name('password.form');
+    Route::put('/password/change','ChangePasswordController@update')->name('password.change');
 });
