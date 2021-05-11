@@ -6,11 +6,10 @@
         <div class="text-center text-white">
             <h1>YouTubeまとめ × SNS</h1>
         </div>
-        
-        <div class="text-center">
-            <h3 class="login_title text-left d-inline-block mt-5">パスワードの変更</h3>
-        </div>
     </div>    
+    <div class="text-center">
+        <h3 class="login_title text-left d-inline-block mt-5">パスワードの変更</h3>
+    </div>
     
     @if(session('warning'))
         <div class="alert alert-danger">
